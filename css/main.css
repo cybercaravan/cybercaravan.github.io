@@ -1382,31 +1382,9 @@ button.owl-next span {
    max-width: 740px;
    margin-inline: auto;
 }
-.ff-layout-default{
-   background-color: #fff;
-}
-select,
-input{
-   width: 100%;
-   min-height: 50px;
-   border-radius: 10px;
-   padding: 10px;
-   font-size: 20px;
-}
 
-button img{
-   display: none;
-}
-
-.btn-primary{
-   background-color: #1a1a1a;
-   width: 300px;
-   border: none;
-   border-radius: 10px;
-   color: #fff;
-}
-.btn-primary span{
-   font-size: 20px !important;
+form .blxCBd{
+   display: none !important;
 }
 
 /* .input-group label,
