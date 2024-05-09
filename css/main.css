@@ -1383,9 +1383,8 @@ button.owl-next span {
    margin-inline: auto;
 }
 
-
-.google-form{
-   width: 100%;
+.rest-btn img{
+   display: none;
 }
 
 /* .input-group label,
