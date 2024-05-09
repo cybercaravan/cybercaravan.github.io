@@ -1383,7 +1383,12 @@ button.owl-next span {
    margin-inline: auto;
 }
 
-.input-group label,
+
+.google-form{
+   width: 100%;
+}
+
+/* .input-group label,
 .input-group p {
    display: block;
    font-family: inherit;
@@ -1637,7 +1642,7 @@ button.owl-next span {
    -webkit-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.502);
    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.502);
    cursor: pointer;
-}
+} */
 
 .footer-top {
    padding-block: 98px;
