@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/font-family.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.minified.css">
 </head>
 <body>
     <!-- Header -->
@@ -38,10 +38,24 @@
                 <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
                 <li class="nav-item"><a class="nav-link" href="#testimonies">Testimonies</a></li>
                 <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
-                <li class="nav-btn large-devices"><button class="lg-btn" type="button">EN</button></li>
+                <li class="nav-btn large-devices">
+                    <select id="pc-lg">
+                        <option value="en">EN</option>
+                        <option value="fr">FR</option>
+                        <option value="de">DE</option>
+                        <option value="it">IT</option>
+                    </select> 
+                </li>
             </ul>
            </div>
-            <button class="lg-btn small-devices" type="button">EN</button>
+           <div class="nav-btn small-devices">
+                <select id="mobile-lg">
+                    <option value="en">EN</option>
+                    <option value="fr">FR</option>
+                    <option value="de">DE</option>
+                    <option value="it">IT</option>
+                </select> 
+          </div>
         </nav>
     </header>
 
