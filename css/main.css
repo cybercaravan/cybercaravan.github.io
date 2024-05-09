@@ -1515,26 +1515,28 @@ button.owl-next span {
    -webkit-box-align: flex-start;
    -ms-flex-align: flex-start;
        align-items: flex-start;
-
-   gap: 15px;
+       gap: 15px;
 }
 
 .plaseholer {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
+   -webkit-box-align: flex-start;
+       -ms-flex-align: flex-start;
+           align-items: flex-start;
+           gap: 15px;
 }
 
 .event-date,
 .event-time {
    display: inline-block;
-   width: 90px;
    font-weight: 800;
+   flex-shrink: 0;
 }
-
+.event-time{
+   min-width: 76px;
+}
 .select-menu.active .select-btn .bx-chevron-down {
    -webkit-transform: rotate(-180deg);
    -ms-transform: rotate(-180deg);
